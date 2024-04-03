@@ -32,7 +32,7 @@ const HomePage = () => {
             <About2/>
             {/* <Features2/> */}
             <EventSection/>
-            <CampaignCountdown/>
+            {/* <CampaignCountdown/> */}
             {/* <MissionVission/> */}
             {/* <FunFact/> */}
             {/* <BlogSection/> */}
