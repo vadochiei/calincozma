@@ -27,7 +27,7 @@ const HomePage = () => {
         //     <Scrollbar />
         // </Fragment>
         <Fragment>
-            {/* <Navbar2/> */}
+            <Navbar2/>
             <Hero2/>
             <About2/>
             {/* <Features2/> */}
@@ -36,7 +36,7 @@ const HomePage = () => {
             {/* <MissionVission/> */}
             {/* <FunFact/> */}
             {/* <BlogSection/> */}
-            {/* <Footer/>  */}
+            <Footer/> 
             <Scrollbar/>
         </Fragment>
     )

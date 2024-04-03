@@ -13,12 +13,14 @@ import { Provider } from "react-redux";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from "next/head";
+import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }) {
   return (
+    <>
     <div>
       <Head>
-        <title>Electian - Political Campaign Next Js Template</title>
+        <title>Calin Cozma Deputat AUR Cluj Napoca</title>
       </Head>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
@@ -27,7 +29,8 @@ function MyApp({ Component, pageProps }) {
         </PersistGate>
       </Provider>
     </div>
-
+    <Analytics />
+    </>
   )
 }
 

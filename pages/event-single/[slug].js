@@ -33,9 +33,9 @@ const CampaignSinglePage = (props) => {
                                     <EventTab EventsDetails={EventsDetails} />
                                 </div>
                             </div>
-                            <div className="col col-lg-4 col-12">
+                            {/* <div className="col col-lg-4 col-12">
                                 <ServiceSidebar />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

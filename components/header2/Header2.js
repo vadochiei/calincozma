@@ -12,6 +12,7 @@ const Header2 = (props) => {
 
     return (
         <header id="header" className={`${props.hclass}`}>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
             <div className="wpo-site-header">
                 <nav className="navigation navbar navbar-expand-lg navbar-light">
                     <div className="container-fluid">
@@ -23,7 +24,7 @@ const Header2 = (props) => {
                             </div>
                             <div className="col-lg-2 col-md-5 col-sm-4 col-6">
                                 <div className="navbar-header">
-                                    {/* <Link onClick={ClickHandler} className="navbar-brand" href="/"><Image src={Logo} alt="logo" /></Link> */}
+                                    <Link onClick={ClickHandler} className="navbar-brand" href="/"><Image src={Logo} alt="logo" /></Link>
                                 </div>
                             </div>
                             <div className="col-lg-8 col-md-1 col-sm-1 col-1">
@@ -32,22 +33,22 @@ const Header2 = (props) => {
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                                         <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} href="/">Home</Link>
-                                            <ul className="sub-menu">
+                                            {/* <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} href="/">Home style 1</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/home-2">Home style 2</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/home-3">Home style 3</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/home-4">Home style 4</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
-                                        <li><Link onClick={ClickHandler} href="/about">About us</Link></li>
+                                        {/* <li><Link onClick={ClickHandler} href="/about">About us</Link></li> */}
                                         <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} href="/">EVENTS</Link>
-                                            <ul className="sub-menu">
+                                            <Link onClick={ClickHandler} href="/events">EVENTS</Link>
+                                            {/* <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} href="/events">EVENTS</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/event-single/Support-for-Womans">EVENTS single</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
-                                        <li className="menu-item-has-children">
+                                        {/* <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} href="/">Pages</Link>
                                             <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} href="/gallery">Gallery</Link></li>
@@ -77,10 +78,10 @@ const Header2 = (props) => {
                                                 </li>
                                                 <li><Link onClick={ClickHandler} href="/404">404 Error</Link></li>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                         <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} href="/">Blog</Link>
-                                            <ul className="sub-menu">
+                                            {/* <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} href="/blog">Blog right sidebar</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/blog-left-sidebar">Blog left sidebar</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/blog-fullwidth">Blog fullwidth</Link></li>
@@ -95,7 +96,7 @@ const Header2 = (props) => {
                                                             fullwidth</Link></li>
                                                     </ul>
                                                 </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li><Link onClick={ClickHandler} href="/contact">Contact</Link></li>
                                     </ul>

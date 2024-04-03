@@ -23,7 +23,7 @@ const About2 = (props) => {
                     <div className="col-lg-6 col-md-12 col-12">
                         <div className="wpo-about-text">
                             <h4>About</h4>
-                            <h2>Te-ai săturat să alegi între <b> <span>rău</span>și <span>foarte rău</span></b> ?
+                            <h2>Te-ai săturat să alegi între <b> <span>rău</span> și <span>foarte rău</span></b> ?
                             {/* Te-ai săturat să alegi între „rău” și „foarte rău”? */}
                             </h2>
                             <p>

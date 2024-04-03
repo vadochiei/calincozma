@@ -121,7 +121,7 @@ const BlogSingle = (props) => {
                                     </div>
                                 </div>
 
-                                <div className="comments-area">
+                                {/* <div className="comments-area">
                                     <div className="comments-section">
                                         <h3 className="comments-title">Comments</h3>
                                         <ol className="comments">
@@ -239,7 +239,7 @@ const BlogSingle = (props) => {
                                             </div>
                                         </form>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

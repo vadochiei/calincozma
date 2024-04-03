@@ -54,7 +54,7 @@ const BlogSection = () => {
                 </div>
                 <div className="blog-wrap">
                     <div className="row">
-                        {blogs.map((blog, bl) => (
+                        {blogs.slice(-3).map((blog, bl) => (
                             <div className="col-lg-4 col-md-6 col-12" key={bl}>
                                 <div className="blog-item">
                                     <div className="image">
@@ -67,7 +67,7 @@ const BlogSection = () => {
                                     <div className="blog-content">
                                         <h2>{blog.title}</h2>
                                         <p>{blog.description}</p>
-                                        <Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${blog.slug}`} className="theme-btn-s2">READ MORE</Link>
+                                        <Link onClick={ClickHandler} href={'/blog-single-fullwidth/[slug]'} as={`/blog-single-fullwidth/${blog.slug}`} className="theme-btn-s2">READ MORE</Link>
                                     </div>
                                 </div>
                             </div>

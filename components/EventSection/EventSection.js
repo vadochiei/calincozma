@@ -29,7 +29,8 @@ const EventSection = (props) => {
                                         </div>
                                         <div className="event-content">
                                             <span><i className="fa fa-map-marker" aria-hidden="true"></i>{event.location}</span>
-                                            <h2><Link onClick={ClickHandler} href={'/event-single/[slug]'} as={`/event-single/${event.slug}`}>{event.title}</Link></h2>
+                                            <h2>{event.title}</h2>
+                                            {/* <h2><Link onClick={ClickHandler} href={'/event-single/[slug]'} as={`/event-single/${event.slug}`}>{event.title}</Link></h2> */}
                                             <div className="event-date">
                                                 <span className="date"><i className="fa fa-calendar"
                                                     aria-hidden="true"></i>{event.date}</span>
