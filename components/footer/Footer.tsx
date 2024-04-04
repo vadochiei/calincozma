@@ -34,8 +34,6 @@ const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         body: JSON.stringify(form)
     })
 
-    const content = await response.json();
-    
     if (response.status === 200) {
         console.log("Email adaugat")
         setEmailSent(true)
