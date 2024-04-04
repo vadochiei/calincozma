@@ -1,16 +1,50 @@
-import React from 'react'
+'use client'
+
+import React, { FormEvent, useState } from "react";
 import Link from 'next/link'
-import Logo from '/public/images/logo.svg'
+// import Logo from '/public/images/logo.svg'
 import Image from 'next/image';
+
+
+
+
+export default function Footer() {
 
 const ClickHandler = () => {
     window.scrollTo(10, 0);
 }
-const SubmitHandler = (e) => {
-    e.preventDefault()
-}
 
-const Footer = (props) => {
+const [email, setEmail] = useState('')
+const [emailSent, setEmailSent] = useState(false)
+
+const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const form = {
+        email
+    }
+
+    const response = await fetch('/api/submit', {
+        method: 'POST',
+        headers: {
+            'Accept':'application/json',
+            'content-type': 'application/json'
+
+        },
+        body: JSON.stringify(form)
+    })
+
+    const content = await response.json();
+    
+    if (response.status === 200) {
+        console.log("Email adaugat")
+        setEmailSent(true)
+    }
+
+    // setEmail('');
+
+    console.log(form)
+}
     return (
         <footer className="wpo-site-footer">
             {/* <div className="shape-1">
@@ -43,7 +77,7 @@ const Footer = (props) => {
                         <div className="col col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <Image src={Logo} alt="blog" />
+                                    {/* <Image src={"Logo.text"} alt="blog" /> */}
                                 </div>
                                 {/* <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, make specimen book.</p> */}
                                 <ul>
@@ -64,12 +98,7 @@ const Footer = (props) => {
                                     </li>
                                     <li>
                                         <Link onClick={ClickHandler} href="https://www.tiktok.com/@calinvalentincozma">
-                                            {/* <i className="ti-google"></i> */}
-                                            {/* <i class="bi bi-tiktok"></i> */}
-                                            {/* <i class="bi bi-tiktok"></i> */}
-                                            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -50 600 900"><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg> */}
-                                            
-                                            <i class="fab fa-tiktok d"></i>
+                                            <i className="fab fa-tiktok d"></i>
                                         </Link>
                                     </li>
                                 </ul>
@@ -110,10 +139,10 @@ const Footer = (props) => {
                                     <h3>Ultimele noutăți</h3>
                                 </div>
                                 <p>Fii la curent cu ultimele noutăți! Abonează-te la newsletter-ul nostru și primește informații direct în inbox-ul tău.</p>
-                                <form onSubmit={SubmitHandler}>
+                                <form onSubmit={handleSubmit}>
                                     <div className="input-1">
-                                        <input type="email" className="form-control" placeholder="Enter your email"
-                                            required="" />
+                                        <input value={email} onChange={e => setEmail(e.target.value)} type="email" className="form-control" placeholder="Enter your email" disabled={emailSent}
+                                            required/>
                                     </div>
                                     <div className="submit clearfix">
                                         <button type="submit"><i className="fa fa-paper-plane"
@@ -129,7 +158,7 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
-                            <p className="copyright"> Copyright &copy; 2023 Design by <Link onClick={ClickHandler} href="https://www.blind.ro">Blind</Link>.All Rights Reserved.</p>
+                            {/* <p className="copyright"> Copyright &copy; 2023 Design by <Link onClick={ClickHandler} href="https://www.blind.ro">Blind</Link>.All Rights Reserved.</p> */}
                         </div>
                     </div>
                 </div>
@@ -137,5 +166,3 @@ const Footer = (props) => {
         </footer >
     )
 }
-
-export default Footer;

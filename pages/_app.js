@@ -20,6 +20,8 @@ function MyApp({ Component, pageProps }) {
     <>
     <div>
       <Head>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link rel="apple-touch-icon" href="/favicon.ico" sizes="any"/>
         <title>Calin Cozma Deputat AUR Cluj Napoca</title>
       </Head>
       <Provider store={store}>
