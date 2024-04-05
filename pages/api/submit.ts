@@ -16,7 +16,8 @@ type SheetForm = {
 
     try {
         const client = new google.auth.JWT(
-            googleKey.client_email, null, googleKey.private_key, ['https://www.googleapis.com/auth/spreadsheets']
+            process.env.client_email, null, process.env.private_key, ['https://www.googleapis.com/auth/spreadsheets']
+            // googleKey.client_email, null, googleKey.private_key, ['https://www.googleapis.com/auth/spreadsheets']
         );
 
         client.authorize(async function(err, tokens) {

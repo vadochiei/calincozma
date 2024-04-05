@@ -24,7 +24,7 @@ const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         email
     }
 
-    const response = await fetch('https://www.calincozma.ro/api/submit', {
+    const response = await fetch('/api/submit', {
         method: 'POST',
         headers: {
             'Accept':'application/json',
