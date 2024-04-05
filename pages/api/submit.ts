@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next"
 import {google} from "googleapis";
-import googleKey from "../../googleKey.json";
+import googleKey from "../../public/googleKey.json";
 type SheetForm = {
     email: string
 }
@@ -15,8 +15,8 @@ type SheetForm = {
     
     try {
         const client = new google.auth.JWT(
-            process.env.client_email, null, process.env.private_key, ['https://www.googleapis.com/auth/spreadsheets']
-            // googleKey.client_email, null, googleKey.private_key, ['https://www.googleapis.com/auth/spreadsheets']
+            // process.env.client_email, null, process.env.private_key, ['https://www.googleapis.com/auth/spreadsheets']
+            googleKey.client_email, null, googleKey.private_key, ['https://www.googleapis.com/auth/spreadsheets']
         );
 
         client.authorize(async function(err, tokens) {
