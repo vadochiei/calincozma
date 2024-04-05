@@ -13,10 +13,11 @@ type SheetForm = {
     
     const body = req.body as SheetForm
     
+    let private_key = JSON.parse(process.env.private_key)
 
     try {
         const client = new google.auth.JWT(
-            process.env.client_email, null, process.env.private_key, ['https://www.googleapis.com/auth/spreadsheets']
+            process.env.client_email, null, private_key, ['https://www.googleapis.com/auth/spreadsheets']
             // googleKey.client_email, null, googleKey.private_key, ['https://www.googleapis.com/auth/spreadsheets']
         );
 
