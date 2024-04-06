@@ -375,7 +375,8 @@ img {
   z-index: -1;
 }
 .wpo-section-title .section-titl-shape-1 svg g {
-  fill: #274DCF;
+  fill: #cf8927;
+  /* fill: #274DCF; */
 }
 .wpo-section-title .section-titl-shape-2 {
   position: absolute;

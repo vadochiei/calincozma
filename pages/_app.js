@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <link rel="apple-touch-icon" href="/favicon.ico" sizes="any"/>
-        <title>Calin Cozma Deputat AUR Cluj Napoca</title>
+        <title>Calin Cozma</title>
       </Head>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
