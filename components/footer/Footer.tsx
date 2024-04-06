@@ -4,7 +4,8 @@ import React, { FormEvent, useState } from "react";
 import Link from 'next/link'
 // import Logo from '/public/images/logo.svg'
 import Image from 'next/image';
-
+import { Bounce, ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -35,6 +36,17 @@ const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     })
 
     if (response.status === 200) {
+        toast.success('📰 Email-ul a fost salvat', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+        });
         console.log("Email adaugat")
         setEmailSent(true)
     }

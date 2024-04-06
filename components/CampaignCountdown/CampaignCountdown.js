@@ -9,7 +9,7 @@ const CampaignCountdown = (props) => {
                 <div className="row justify-content-center">
                     <div className="col col-lg-5 col-md-8 col-12">
                         <div className="wpo-section-title">
-                            <div className="section-titl-shape-1">
+                            {/* <div className="section-titl-shape-1">
                                 <svg width="687" height="473" viewBox="0 0 687 473" fill="none">
                                     <g opacity="0.44" filter="url(#filter0_f_1_104)">
                                         <circle cx="343.5" cy="129.5" r="129.5" />
@@ -40,7 +40,7 @@ const CampaignCountdown = (props) => {
                                         </filter>
                                     </defs>
                                 </svg>
-                            </div>
+                            </div> */}
                             <span>Campaign
                                 Events</span>
                             <h2>Cluj Napoca, Ro</h2>

@@ -290,11 +290,12 @@ img {
 
 /*** back to top **/
 .back-to-top {
-  background-color: rgba(222, 32, 69, 0.7);
+  background-color: rgba(251, 184, 0, 0.7);
+  /* background-color: rgba(222, 32, 69, 0.7); */
   width: 45px;
   height: 45px;
   line-height: 45px;
-  border: 2px solid #DE2045;
+  border: 2px solid #FBC324;
   border-radius: 45px;
   text-align: center;
   display: none;
@@ -312,7 +313,8 @@ img {
   }
 }
 .back-to-top:hover {
-  background-color: #DE2045;
+  background-color: #FBC324;
+  /* background-color: #DE2045; */
 }
 
 .back-to-top i {
