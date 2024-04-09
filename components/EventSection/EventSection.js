@@ -50,8 +50,9 @@ const EventSection = (props) => {
                     <defs>
                         <linearGradient id="paint0_linear_1_168" x1="2.66246e-06" y1="35.3845" x2="960" y2="35.3845"
                             gradientUnits="userSpaceOnUse">
-                            <stop offset="0" stopColor="#DE2045" />
-                            <stop offset="1" stopColor="#D9D9D9" stopOpacity="0" />
+                            <stop offset="0" stopColor="#F2C34B" />
+                            {/* <stop offset="0" stopColor="#DE2045" /> */}
+                            <stop offset="1" stopColor="#F2C34B" stopOpacity="0" />
                         </linearGradient>
                     </defs>
                 </svg>

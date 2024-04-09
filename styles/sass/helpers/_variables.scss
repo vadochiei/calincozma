@@ -77,10 +77,13 @@ $black: #000;
 $small-black: #333;
 $cyan: #848892; //
 
-$theme-primary-color: #DE2045; //
+$theme-primary-color: #F2C34B; //
+// $theme-primary-color: #DE2045; //
 $theme-primary-color-s2: #274DCF; //
-$theme-primary-color-s3: #00C99F; //
-$theme-primary-color-gradient:linear-gradient(90deg, rgba(45, 73, 189, 1) 0%, rgba(222, 32, 69, 1) 100%); //
+$theme-primary-color-s3: #ffffff; //
+// $theme-primary-color-s3: #00C99F; //
+$theme-primary-color-gradient:linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%); //
+// $theme-primary-color-gradient:linear-gradient(90deg, rgba(45, 73, 189, 1) 0%, rgba(222, 32, 69, 1) 100%); //
 $body-bg-color: #fff;
 $section-bg-color: #F9F4F4; //
 $section-bg-color-s2: #F8F2F2; //
