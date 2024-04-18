@@ -68,7 +68,7 @@ const BlogSingle = (props) => {
                                 <div className="tag">
                                     <span>Share: </span>
                                     <ul>
-                                        <li><Link href="/blog-single/Letraset-Sheets-Passage-And-Recently">facebook</Link></li>
+                                        <li><Link aria-label="" href="/blog-single/Letraset-Sheets-Passage-And-Recently">facebook</Link></li>
                                         <li><Link href="/blog-single/Letraset-Sheets-Passage-And-Recently">twitter</Link></li>
                                         <li><Link href="/blog-single/Letraset-Sheets-Passage-And-Recently">linkedin</Link></li>
                                         <li><Link href="/blog-single/Letraset-Sheets-Passage-And-Recently">pinterest</Link></li>

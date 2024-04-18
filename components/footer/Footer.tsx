@@ -92,22 +92,22 @@ const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
                                 {/* <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, make specimen book.</p> */}
                                 <ul>
                                     <li>
-                                        <Link onClick={ClickHandler} href="https://www.facebook.com/profile.php?id=61558022969427">
+                                        <Link onClick={ClickHandler} aria-label="facebook" href="https://www.facebook.com/profile.php?id=61558022969427">
                                             <i className="ti-facebook"></i>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} href="https://twitter.com/calinvcozma">
+                                        <Link onClick={ClickHandler} aria-label="twitter" href="https://twitter.com/calinvcozma">
                                             <i className="ti-twitter-alt"></i>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} href="https://www.instagram.com/calinvalentincozma/">
+                                        <Link onClick={ClickHandler} aria-label="instagram" href="https://www.instagram.com/calinvalentincozma/">
                                             <i className="ti-instagram"></i>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} href="https://www.tiktok.com/@calinvalentincozma">
+                                        <Link onClick={ClickHandler} aria-label="tiktok" href="https://www.tiktok.com/@calinvalentincozma">
                                             <i className="fab fa-tiktok d"></i>
                                         </Link>
                                     </li>
