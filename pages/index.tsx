@@ -38,7 +38,7 @@ const HomePage = () => {
             {/* <Features2/> */}
             <EventSection/>
             <CampaignCountdown/>
-            <MissionVission/>
+            {/* <MissionVission/> */}
             {/* <FunFact/> */}
             {/* <BlogSection/> */}
             <Footer/> 
