@@ -175,7 +175,7 @@ const ProductTabs = (props) => {
                                         </div>
                                         <div className="rating-wrapper">
                                             <div className="submit">
-                                                <button type="submit" className="theme-btn">Post
+                                                <button type="submit" aria-label="post review" className="theme-btn">Post
                                                     review</button>
                                             </div>
                                         </div>

@@ -108,7 +108,7 @@ class GetinTouch extends Component {
                                         <textarea className="form-control" name="note" id="note" placeholder="Your Question"></textarea>
                                     </div>
                                     <div className="submit-btn-wrapper">
-                                        <button type="submit" className="theme-btn">Submit Now</button>
+                                        <button type="submit" aria-label="submit" className="theme-btn">Submit Now</button>
                                     </div>
                                 </form>
                             </div>

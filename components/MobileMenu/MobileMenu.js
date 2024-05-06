@@ -189,7 +189,7 @@ const menus = [
     {
         id: 3,
         title: 'Blog',
-        link: '/',
+        link: '/blog',
     },
     {
         id: 4,
@@ -252,7 +252,7 @@ const MobileMenu = () => {
             </div>
 
             <div className="showmenu" onClick={() => setMenuState(!menuActive)}>
-                <button type="button" className="navbar-toggler open-btn">
+                <button type="button" className="navbar-toggler open-btn" aria-label="Navigation button">
                     <span className="icon-bar first-angle"></span>
                     <span className="icon-bar middle-angle"></span>
                     <span className="icon-bar last-angle"></span>

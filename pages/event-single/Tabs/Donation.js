@@ -121,7 +121,7 @@ const Donation = () => {
                     </div>
                 </div>
                 <div className="submit-area">
-                    <button type="submit" className="theme-btn submit-btn">Donate Now</button>
+                    <button type="submit" aria-label="donate button" className="theme-btn submit-btn">Donate Now</button>
                 </div>
             </form>
         </div>

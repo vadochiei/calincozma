@@ -16,13 +16,13 @@ const About2 = (props) => {
                     <div className="col-lg-6 col-md-12 col-12">
                         <div className="wpo-about-wrap">
                             <div className="wpo-about-img">
-                                <Image src={abimg} alt="" />
+                                <Image src={abimg} alt="Calin Cozma, candidat la Primaria Cluj Napoca in anul 2024" />
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-12">
                         <div className="wpo-about-text">
-                            <h4>About</h4>
+                            <p><span>About</span></p>
                             <h2>Te-ai săturat să alegi între <b> <span>rău</span> și <span>foarte rău</span></b> ?
                             {/* Te-ai săturat să alegi între „rău” și „foarte rău”? */}
                             </h2>

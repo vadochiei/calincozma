@@ -155,7 +155,7 @@ const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
                                             required/>
                                     </div>
                                     <div className="submit clearfix">
-                                        <button type="submit"><i className="fa fa-paper-plane"
+                                        <button type="submit" aria-label="Submit button"><i className="fa fa-paper-plane"
                                             aria-hidden="true"></i></button>
                                     </div>
                                 </form>

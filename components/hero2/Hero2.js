@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import Link from 'next/link'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import hero1 from '/public/images/slider/2.png'
+import hero1 from '/public/images/slider/2.webp'
 import hero2 from '/public/images/slider/4.png'
 import Image from "next/image";
 
@@ -37,7 +37,7 @@ const Hero2 = () => {
                                         <h5>Ne unim pentru Romani!</h5>
                                     </div>
                                     <div className="slide-title">
-                                        <h2>Calin Cozma, un candidat fara notorietate, dar cu realizari notabile!</h2>
+                                        <h2>Calin Cozma: Un clujean pentru toti Clujenii!</h2>
                                     </div>
                                     <div className="slide-subtitle">
                                         {/* <p>🇷🇴</p> */}

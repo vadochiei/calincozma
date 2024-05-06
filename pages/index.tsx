@@ -11,6 +11,7 @@ import BlogSection from '../components/BlogSection/BlogSection.js';
 import Scrollbar from '../components/scrollbar/scrollbar.js';
 import Footer from '../components/footer/Footer';
 import Head from "next/head";
+import dynamic from 'next/dynamic.js';
 
 const HomePage = () => {
     return (
@@ -38,7 +39,7 @@ const HomePage = () => {
             {/* <Features2/> */}
             <EventSection/>
             <CampaignCountdown/>
-            {/* <MissionVission/> */}
+            <MissionVission/>
             {/* <FunFact/> */}
             {/* <BlogSection/> */}
             <Footer/> 

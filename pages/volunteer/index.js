@@ -128,7 +128,7 @@ const VolunteerPage = (props) => {
                                                     {validator.message('message', forms.message, 'required')}
                                                 </div>
                                                 <div className="submit-area col-lg-12 col-12">
-                                                    <button type="submit" className="theme-btn submit-btn">Send Message</button>
+                                                    <button type="submit" aria-label="Send Message" className="theme-btn submit-btn">Send Message</button>
                                                     <div id="loader">
                                                         <i className="ti-reload"></i>
                                                     </div>

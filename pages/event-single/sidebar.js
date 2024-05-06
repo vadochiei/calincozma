@@ -19,7 +19,7 @@ const ServiceSidebar = (props) => {
                 <form onSubmit={SubmitHandler}>
                     <div>
                         <input type="text" className="form-control" placeholder="Search Post.." />
-                        <button type="submit"><i className="ti-search"></i></button>
+                        <button type="submit" aria-label="submit"><i className="ti-search"></i></button>
                     </div>
                 </form>
             </div>
