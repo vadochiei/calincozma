@@ -67,7 +67,7 @@ const BlogSection = () => {
                                     <div className="blog-content">
                                         <h2>{blog.title}</h2>
                                         <p>{blog.description}</p>
-                                        <Link onClick={ClickHandler} href={'/blog-single-fullwidth/[slug]'} as={`/blog-single-fullwidth/${blog.slug}`} className="theme-btn-s2">READ MORE</Link>
+                                        <Link onClick={ClickHandler} href={'/blog-single-fullwidth/[slug]'} as={`/blog-single-fullwidth/${blog.slug}`} className="theme-btn-s2">Afla mai mult</Link>
                                     </div>
                                 </div>
                             </div>
