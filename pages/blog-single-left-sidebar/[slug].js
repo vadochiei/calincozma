@@ -13,7 +13,7 @@ import blog4 from '/public/images/blog-details/comments-author/img-2.jpg'
 import blog5 from '/public/images/blog-details/comments-author/img-3.jpg'
 import blog6 from '/public/images/blog-details/author.jpg'
 import gl1 from '/public/images/blog/primaria-cluj-napoca-calin-cozma-aur.webp'
-import gl2 from '/public/images/blog/parcare-primaria-cluj-napoca-calin-cozma-aur.webp'
+// import gl2 from '/public/images/blog/parcare-primaria-cluj-napoca-calin-cozma-aur.webp'
 
 const submitHandler = (e) => {
     e.preventDefault()
