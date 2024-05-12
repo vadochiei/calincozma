@@ -46,7 +46,7 @@ const Hero2 = () => {
                                         {/* <Link onClick={ClickHandler} href="/about" className="theme-btn-s3">Explore More <i className="fi "></i></Link> */}
                                     </div>
                                     <div className="slider-pic">
-                                        <Image src={hero1} alt="" />
+                                        <Image src={hero1} alt="Calin Cozma" />
                                     </div>
                                 </div>
                             </div>

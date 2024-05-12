@@ -41,7 +41,7 @@ const HomePage = () => {
             <CampaignCountdown/>
             <MissionVission/>
             {/* <FunFact/> */}
-            {/* <BlogSection/> */}
+            <BlogSection/>
             <Footer/> 
             <Scrollbar/>
         </Fragment>

@@ -43,8 +43,8 @@ const CampaignCountdown = (props) => {
                             </div> */}
                             <span>Campaign
                                 Events</span>
-                            <h2>Cluj Napoca, Ro</h2>
-                            <p>9 iunie 2024</p>
+                            <h2>9 iunie 2024</h2>
+                            <p>Cluj Napoca, Ro</p>
                         </div>
                     </div>
                 </div>

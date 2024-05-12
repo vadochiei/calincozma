@@ -12,7 +12,7 @@ import blog3 from '/public/images/blog-details/comments-author/img-1.jpg'
 import blog4 from '/public/images/blog-details/comments-author/img-2.jpg'
 import blog5 from '/public/images/blog-details/comments-author/img-3.jpg'
 import blog6 from '/public/images/blog-details/author.jpg'
-import gl1 from '/public/images/blog/img-3.jpg'
+import gl1 from '/public/images/blog/Calin-Cozma-Sustinerea-mediului-antreprenorial-prin-festivaluri-si-expozitii.webp'
 import gl2 from '/public/images/blog/img-2.jpg'
 
 const submitHandler = (e) => {

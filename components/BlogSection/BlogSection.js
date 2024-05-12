@@ -48,7 +48,7 @@ const BlogSection = () => {
                                 </svg>
                             </div>
                             <span>Blog Post</span>
-                            <h2>Awesome Blog Post & Article.</h2>
+                            <h2>Articole și Postări de Blog</h2>
                         </div>
                     </div>
                 </div>
@@ -60,10 +60,10 @@ const BlogSection = () => {
                                     <div className="image">
                                         <Image src={blog.screens} alt="" />
                                     </div>
-                                    <div className="dete">
+                                    {/* <div className="dete">
                                         <span>{blog.day}</span>
                                         <strong>{blog.month}</strong>
-                                    </div>
+                                    </div> */}
                                     <div className="blog-content">
                                         <h2>{blog.title}</h2>
                                         <p>{blog.description}</p>

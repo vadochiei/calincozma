@@ -11,7 +11,7 @@ import blog3 from '/public/images/blog-details/comments-author/img-1.jpg'
 import blog4 from '/public/images/blog-details/comments-author/img-2.jpg'
 import blog5 from '/public/images/blog-details/comments-author/img-3.jpg'
 import blog6 from '/public/images/blog-details/author.jpg'
-import gl1 from '/public/images/blog/img-3.jpg'
+import gl1 from '/public/images/blog/Calin-Cozma-Sustinerea-mediului-antreprenorial-prin-festivaluri-si-expozitii.webp'
 import gl2 from '/public/images/blog/img-2.jpg'
 
 const submitHandler = (e) => {
@@ -23,6 +23,19 @@ const BlogSingle = (props) => {
     const router = useRouter()
 
     const BlogDetails = blogs.find(item => item.slug === router.query.slug)
+
+    const prevBlogId = BlogDetails?.id-1
+    
+    const PBlogDetails = blogs.find(item => item.id == prevBlogId)
+    const findPreviousBlog = async (id) => {
+        let prevId = id - 1;
+        let prevBlog = blogs.find(item => item.id === prevId);
+
+        return prevBlog;
+    };
+    const nextBlogId = prevBlogId + 2
+    const NBlogDetails = blogs.find(item => item.id == nextBlogId)
+
 
 
     return (
@@ -36,90 +49,67 @@ const BlogSingle = (props) => {
                         <div className="wpo-blog-content">
                                 <div className="post format-standard-image">
                                     <div className="entry-media">
-                                        <Image src={BlogDetails?.blogSingleImg} alt="" />
+                                        <Image src={BlogDetails?.screens} alt="" />
                                     </div>
                                     <div className="entry-meta">
                                         <ul>
                                             <li><i className="fi ti-user"></i> By <Link href="/">{BlogDetails?.author}</Link> </li>
-                                            <li><i className="fi ti-comment-alt"></i> Comments {BlogDetails?.comment}</li>
+                                            {/* <li><i className="fi ti-comment-alt"></i> Comments {PBlogDetails?.title}</li> */}
+                                            {/* <li><i className="fi ti-comment-alt"></i> Comments {BlogDetails?.comment}</li> */}
                                             <li><i className="fi flaticon-calendar"></i> {BlogDetails?.create_at}</li>
                                         </ul>
                                     </div>
                                     <h2>{BlogDetails?.title}</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful.</p>
-                                    <blockquote>
-                                        Combined with a handful of model sentence structures, generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-                                    </blockquote>
-                                    <p>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,</p>
+                                    <p>{BlogDetails?.text}</p>
+                                    {BlogDetails?.quote && (
+                                        <blockquote>
+                                            {BlogDetails.quote}
+                                        </blockquote>
+                                    )}
 
-                                    <div className="gallery">
+                                    <p>{BlogDetails?.text2}</p>
+                                    <br></br>
+                                    {/* {BlogDetails?.souce && (
+                                        <p>
+                                            Știre preluată de pe: <Link href={BlogDetails?.sourceLink}>{BlogDetails?.source}</Link>
+                                        </p>
+                                    )}  */}
+                                    {BlogDetails?.source && (
+                                        <p>Știre preluată de pe: <Link href={BlogDetails?.sourceLink ?? '/blog'} target="_blank">{BlogDetails?.source ?? ' '}</Link></p>
+                                    )}
+
+
+                                    <Link href='/blog'>Vezi toate blogurile</Link>
+                                    {/* <div className="gallery">
                                         <div>
+                                            
                                             <Image src={gl1} alt="" />
                                         </div>
                                         <div>
+                                            
                                             <Image src={gl2} alt="" />
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
-
-                                <div className="tag-share clearfix">
-                                    <div className="tag">
-                                        <span>Share: </span>
-                                        <ul>
-                                            <li><Link href="/blog-single/support-progressive-change">Election</Link></li>
-                                            <li><Link href="/blog-single/support-progressive-change">Vote</Link></li>
-                                            <li><Link href="/blog-single/support-progressive-change">Political</Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div className="tag-share-s2 clearfix">
-                                    <div className="tag">
-                                        <span>Share: </span>
-                                        <ul>
-                                            <li><Link href="/">facebook</Link></li>
-                                            <li><Link href="/">twitter</Link></li>
-                                            <li><Link href="/">linkedin</Link></li>
-                                            <li><Link href="/">pinterest</Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div className="author-box">
-                                    <div className="author-avatar">
-                                        <Link href="/" target="_blank"><Image src={blog6} alt="" /></Link>
-                                    </div>
-                                    <div className="author-content">
-                                        <Link href="/" className="author-name">Author: Jenny Watson</Link>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-                                        <div className="socials">
-                                            <ul className="social-link">
-                                                <li><Link href="/"><i className="ti-facebook"></i></Link></li>
-                                                <li><Link href="/"><i className="ti-twitter-alt"></i></Link></li>
-                                                <li><Link href="/"><i className="ti-linkedin"></i></Link></li>
-                                                <li><Link href="/"><i className="ti-instagram"></i></Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="more-posts">
+                                
+                                {/* <div className="more-posts">
                                     <div className="previous-post">
-                                        <Link href="/">
+                                        <Link href={PBlogDetails.slug ? PBlogDetails.slug : '/blog'}>
 
                                             <span className="post-control-link">Previous Post</span>
-                                            <span className="post-name">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</span>
-
+                                            <span className="post-name">{PBlogDetails.title ? PBlogDetails.title : 'Blog'}</span>
                                         </Link>
                                     </div>
                                     <div className="next-post">
-                                        <Link href="/">
+                                        <Link href={NBlogDetails.slug ? NBlogDetails.slug : '/blog'}>
 
                                             <span className="post-control-link">Next Post</span>
-                                            <span className="post-name">Dignissimos ducimus qui blanditiis praesentiu deleniti atque corrupti quos dolores</span>
+                                            <span className="post-name">{NBlogDetails.title ? NBlogDetails.title : 'Blog'}</span>
 
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
+                                    
 
                                 {/* <div className="comments-area">
                                     <div className="comments-section">

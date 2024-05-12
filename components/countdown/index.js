@@ -49,11 +49,11 @@ const TimeCountDown = (props) => {
     <div className="react-countdown">
       <div className='time-section'>
         <div className='time'>{state.days || '0'}</div>
-        <small className="time-text">Days</small>
+        <small className="time-text">Zile</small>
       </div>
       <div className='time-section'>
         <div className='time'>{state.hours || '00'}</div>
-        <small className="time-text">Hours</small>
+        <small className="time-text">Ore</small>
       </div>
       <div className='time-section'>
         <div className='time'>{state.minutes || '00'}</div>

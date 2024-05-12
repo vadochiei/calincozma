@@ -1,5 +1,5 @@
 import React from 'react'
-import abimg from '/public/images/about.jpg'
+import abimg from '/public/images/about.webp'
 import Link from 'next/link'
 import Image from 'next/image';
 

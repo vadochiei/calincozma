@@ -16,7 +16,7 @@ const EventSection = (props) => {
                     <div className="row">
                         <div className="col-lg-3 col-md-12 col-12">
                             <div className="wpo-section-title">
-                                <span>Our Event’s</span>
+                                <span>Our events</span>
                                 <h2>Va așteptăm la evenimentele noastre!</h2>
                             </div>
                         </div>
