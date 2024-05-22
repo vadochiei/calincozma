@@ -43,8 +43,8 @@ const BlogList = (props) => {
                                      </div>
               </div>
             ))}
-
             <div className="pagination-wrapper pagination-wrapper-left">
+            <nav aria-label="Results pages">
               <ReactPaginate
                 previousLabel={<i className="fi ti-angle-left"></i>}
                 nextLabel={<i className="fi ti-angle-right"></i>}
@@ -56,6 +56,7 @@ const BlogList = (props) => {
                 containerClassName={'pg-pagination'}
                 activeClassName={'active'}
               />
+              </nav>
             </div>
           </div>
         </div>

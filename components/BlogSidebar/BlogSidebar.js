@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link'
-import about from '/public/images/blog/about-widget.jpg'
+// import about from '/public/images/blog/about-widget.jpg'
 import blogs from '../../api/blogs'
 import Image from 'next/image';
 
@@ -18,7 +18,7 @@ const BlogSidebar = (props) => {
             <div className="blog-sidebar">
                 <div className="widget about-widget">
                     <div className="img-holder">
-                        <Image src={about} alt="" />
+                        {/* <Image src={about} alt="" /> */}
                     </div>
                     <h4>Jenny Watson</h4>
                     <p>Hi! beautiful people. I`m an authtor of this blog. Read our post - stay with us</p>

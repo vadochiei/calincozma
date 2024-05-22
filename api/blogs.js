@@ -1,10 +1,14 @@
 // images
 import blogImg1 from "/public/images/blog/primaria-cluj-napoca-calin-cozma-aur.webp";
-// import blogImg1 from "/public/images/blog/img-1.jpg";
 import blogImg2 from "/public/images/blog/transparenta-si-onestitate-viziunea-lui-Calin-Cozma-pentru-administratia-locala-din-cluj-napoca.webp";
 import blogImg3 from "/public/images/blog/Calin-Cozma-Sustinerea-mediului-antreprenorial-prin-festivaluri-si-expozitii.webp";
 import blogImg4 from "/public/images/blog/Calin-Cozma-Reactii-la-rezultatele-sondajului-pentru-Primaria-Clujului.webp";
 import blogImg5 from "/public/images/blog/george-simion-calin-cozma-combaterea-minciunii-si-amagirii-in-administratia-locala.webp";
+import blogImg6 from "/public/images/blog/Calin-Cozma-O-Noua-Viziune-pentru-Cluj-Napoca.webp";
+import blogImg7 from "/public/images/blog/Calin-Cozma-Reducerea-Numarului-de-Angajati-din-Primaria-Cluj-Napoca.webp";
+import blogImg8 from "/public/images/blog/Calin-Cozma-Opinii-ale-unui-Influencer-Politic-Ardelean.webp";
+import blogImg9 from "/public/images/blog/Calin-Cozma-Amintiri-din-Timpul-Revolutiei.webp";
+
 
 const blogs = [
     {
@@ -77,6 +81,64 @@ const blogs = [
         author: 'Echipa Călin Cozma',
         create_at: '12 Mai 2024',
     },
+    {
+        id: '6',
+        title: 'Călin Cozma: O Nouă Viziune pentru Cluj-Napoca',
+        slug: 'Calin-Cozma-O-Noua-Viziune-pentru-Cluj-Napoca',
+        screens: blogImg6,
+        description: 'Află de ce Călin Cozma este candidatul dedicat schimbării în Cluj-Napoca și cum își propune să transforme orașul pentru toți locuitorii săi.',
+        text: 'Călin Cozma, unul dintre candidații la primăria Clujului, promovează o viziune inclusivă pentru oraș, punând accent pe accesibilitate și egalitate. Află mai multe despre cum Cozma se angajează să asigure ca fiecare clujean să aibă oportunitatea de a trăi și prospera în oraș, indiferent de statutul economic.',
+        quote: 'Doresc ca Cluj-Napoca să fie un oraș pentru toți, nu doar pentru cei bogați. Este timpul pentru o schimbare radicală care să beneficieze fiecare cetățean.',
+        text2: 'În contextul unei campanii electorale vibrante, Cozma a criticat actuala administrație pentru eșecurile ei în gestionarea orașului și a promis reforme semnificative. El vizează îmbunătățirea infrastructurii urbane, accesul la locuințe accesibile și promovarea unui mediu de afaceri prosper pentru toți antreprenorii.',
+        sourceLink: 'https://www.bzc.ro/aur-da-la-cluj-startul-campaniei-electorale-claudiu-tarziu-se-tem-de-noi-calin-cozma-dorim-ca-fiecare-clujean-sa-poata-trai-la-cluj-nu-doar-cei-bogati/',
+        source: 'BZC.ro',
+        author: 'Echipa Călin Cozma',
+        create_at: '13 Mai 2024',
+    },
+    {
+        id: '7',
+        title: 'Călin Cozma: Reducerea Numărului de Angajați din Primăria Cluj-Napoca',
+        slug: 'Calin-Cozma-Reducerea-Numarului-de-Angajati-din-Primaria-Cluj-Napoca',
+        screens: blogImg7,
+        description: 'Descoperă planurile lui Călin Cozma pentru eficientizarea administrației locale prin reducerea numărului de angajați din Primăria Cluj-Napoca.',
+        text: 'Călin Cozma, candidatul AUR la Primăria Cluj-Napoca, și-a anunțat intenția de a reduce numărul de angajați din Primărie pentru a spori eficiența și a reduce birocrația. Acest plan face parte dintr-o viziune mai amplă de restructurare și modernizare a administrației locale, menită să servească mai bine nevoile clujenilor.',
+        quote: 'Adică în loc de 400 de milioane de euro să cheltuim doar 200 de milioane de euro. Vă spun ce vom face cu 200 de milioane de euro: vreo 12.000 de parcări. Nu voi da afară oameni Voi dezvolta alte departamente public-privat. În momentul acesta avem prea mulți angajați în Primăria Cluj-Napoca și avem prea multe clădiri goale pentru care se plătește apă și utilități, dar intră în paragină.',
+        text2: 'Calin Cozma a subliniat că o primărie cu mai puțini angajați, dar mai bine pregătiți și motivați, va putea să ofere servicii publice de calitate superioară. El a criticat actuala administrație pentru lipsa de eficiență și a promis să implementeze reforme structurale care să optimizeze funcționarea primăriei și să reducă cheltuielile administrative inutile.',
+        sourceLink: 'https://ziarulfaclia.ro/calin-cozma-vrea-sa-reduca-numarul-de-angajati-din-primaria-cluj-napoca/',
+        source: 'Ziarul Făclia',
+        author: 'Echipa Călin Cozma',
+        create_at: '15 Mai 2024',
+    },
+    {
+        id: '8',
+        title: 'Călin Cozma: Opinii ale unui Influencer Politic Ardelean',
+        slug: 'Calin-Cozma-Opinii-ale-unui-Influencer-Politic-Ardelean',
+        screens: blogImg8,
+        description: 'Află ce spune un influencer politic ardelean despre Călin Cozma, candidatul susținut de George Simion la Primăria Cluj-Napoca.',
+        text: 'Într-un recent articol, un influencer politic ardelean și-a exprimat opinia despre Călin Cozma, candidatul susținut de George Simion pentru Primăria Cluj-Napoca. Acesta a evidențiat calitățile și determinarea lui Cozma în a aduce schimbări semnificative în administrația locală și în a susține interesele cetățenilor clujeni.',
+        quote: 'Călin Cozma este văzut ca un lider puternic și dedicat, capabil să aducă o nouă direcție pentru Cluj-Napoca, cu sprijinul neclintit al lui George Simion și al partidului AUR.',
+        text2: 'Articolul subliniază încrederea pe care o are influencerul politic în capacitatea lui Cozma de a implementa reforme esențiale și de a transforma Cluj-Napoca într-un oraș mai bine administrat și mai prosper. Cu o viziune clară și o echipă puternică în spate, Călin Cozma se angajează să lupte pentru binele comunității și să ofere soluții concrete pentru problemele locale.',
+        sourceLink: 'https://apuseni.info/2024/05/19/ce-spune-un-influencer-politic-ardelean-despre-omul-lui-george-simion-de-la-cluj/',
+        source: 'Apuseni.info',
+        author: 'Echipa Călin Cozma',
+        create_at: '19 Mai 2024',
+    },
+    {
+        id: '9',
+        title: 'Călin Cozma: Amintiri din Timpul Revoluției',
+        slug: 'Calin-Cozma-Amintiri-din-Timpul-Revolutiei',
+        screens: blogImg9,
+        description: 'Descoperă povestea emoționantă a lui Călin Cozma despre curajul mamei sale în timpul Revoluției și impactul acestor evenimente asupra viziunii sale politice.',
+        text: 'Călin Cozma, candidatul AUR la Primăria Cluj-Napoca, a împărtășit recent o poveste emoționantă despre curajul mamei sale în timpul Revoluției din 1989. Mama lui Cozma lucra la fabrica Continental și, în timpul evenimentelor revoluționare, a fost nevoită să fugă pe jos până în Mănăștur. Această experiență a avut un impact profund asupra lui Cozma, influențându-i angajamentul de a lupta pentru dreptate și adevăr în comunitatea sa.',
+        quote: 'În timpul Revoluţiei mama lucra la Continental şi a ieşit de acolo printre morţi şi a fugit pe jos până în Mănăştur',
+        text2: 'Călin Cozma a subliniat că aceste amintiri din copilărie l-au motivat să se implice activ în politică și să lupte pentru o administrație transparentă și corectă. El crede că experiențele dificile prin care a trecut familia sa i-au oferit o perspectivă unică asupra nevoilor și aspirațiilor clujenilor. În campania sa electorală, Cozma promite să aducă schimbări pozitive și să protejeze valorile pentru care au luptat mulți români în trecut.',
+        sourceLink: 'https://gazetadecluj.ro/calin-cozma-in-timpul-revolutiei-mama-lucra-la-continental-si-a-iesit-de-acolo-printre-morti-si-a-fugit-pe-jos-pana-in-manastur/#google_vignette',
+        source: 'Gazeta de Cluj',
+        author: 'Echipa Călin Cozma',
+        create_at: '20 Mai 2024',
+    }
+    
+    
 
 ];
 export default blogs;
