@@ -10,6 +10,8 @@ import blogImg8 from "/public/images/blog/Calin-Cozma-Opinii-ale-unui-Influencer
 import blogImg9 from "/public/images/blog/Calin-Cozma-Amintiri-din-Timpul-Revolutiei.webp";
 import blogImg10 from "/public/images/blog/Calin-Cozma-Critici-la-Adresa-Administratiei-Boc-pentru-Intarzierile-in-Emiterea-Autorizatiilor-de-Constructie.webp";
 import blogImg11 from "/public/images/blog/Calin-Cozma-Propuneri-pentru-Modernizarea-Administratiei-in-Cluj-Napoca.webp";
+import blogImg12 from "/public/images/blog/Calin-Cozma-AUR-Denunta-Actiuni-de-Intimidare-si-Vandalizare-in-Campania-din-Cluj.webp";
+
 
 
 
@@ -166,7 +168,21 @@ const blogs = [
         sourceLink: 'https://www.news.ro/politic-intern/candidatul-aur-primaria-cluj-napoca-propus-doua-lucruri-foarte-simple-palat-administrativ-periferia-orasului-mutam-toata-partea-birocratica-centrul-clujului-anaf-ul-transportul-comun-ar-trebui-fie-1922403321032024052221599918',
         source: 'News.ro',
         author: 'Echipa Călin Cozma',
-        create_at: '21 Mai 2024',
+        create_at: '23 Mai 2024',
+    },
+    {
+        id: '12',
+        title: 'AUR Denunță Acțiuni de Intimidare și Vandalizare în Campania din Cluj',
+        slug: 'Calin-Cozma-AUR-Denunta-Actiuni-de-Intimidare-si-Vandalizare-in-Campania-din-Cluj',
+        screens: blogImg12,
+        description: 'Află despre acțiunile de intimidare și vandalizare raportate de AUR în timpul campaniei electorale din Cluj-Napoca și răspunsul partidului la aceste incidente.',
+        text: 'Alianța pentru Unirea Românilor (AUR) a raportat recent acțiuni de intimidare și vandalizare în timpul campaniei electorale din Cluj-Napoca. Potrivit reprezentanților partidului, afișele electorale au fost distruse, iar echipele de campanie au fost supuse unor presiuni constante. AUR condamnă ferm aceste acțiuni și solicită autorităților să ia măsuri pentru a asigura desfășurarea corectă și transparentă a procesului electoral.',
+        quote: 'Votați patrioți români. Dați-ne o șansă',
+        text2: 'Partidul AUR își exprimă determinarea de a continua campania electorală, în ciuda obstacolelor întâmpinate, și îndeamnă cetățenii să iasă la vot pe 9 iunie pentru a aduce schimbarea de care Cluj-Napoca are nevoie. Reprezentanții partidului subliniază importanța unei campanii desfășurate în mod civilizat și legal, unde fiecare candidat are dreptul să își prezinte programul fără teama de represalii.',
+        sourceLink: 'https://ziarulfaclia.ro/aur-denunta-actiuni-de-intimidare-si-vandalizare-in-campania-din-cluj/',
+        source: 'Ziarul Făclia',
+        author: 'Echipa Călin Cozma',
+        create_at: '24 Mai 2024',
     }
     
     
