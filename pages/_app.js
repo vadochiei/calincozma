@@ -14,6 +14,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from "next/head";
 import { Analytics } from '@vercel/analytics/react';
+// import ogImage from "../CalinCozma-PrimariaCluj-ModernizareAdministratie-TransportPublic-SchimbareClujNapoca.webp";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -22,11 +23,11 @@ function MyApp({ Component, pageProps }) {
       <Head>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <link rel="apple-touch-icon" href="../favicon.ico" sizes="any"/>
-      <meta name="description" content="Bun venit pe website-ul meu! Sunt Călin Cozma, candidat la Primăria Clujului. Aici vei găsi viziunea mea pentru un Cluj Napoca mai prosper și mai echitabil. Descoperă planurile mele și alătură-te echipei noastre în construirea unei comunități mai bune pentru toți locuitorii orașului nostru!" />
+      <meta name="description" content="Sunt Călin Cozma, candidat la Primăria Clujului. Aici vei găsi viziunea mea pentru un Cluj Napoca mai prosper și mai echitabil. Descoperă planurile mele și alătură-te echipei noastre în construirea unei comunități mai bune pentru toți locuitorii orașului nostru!" />
       <meta name="keywords" content="Primăria Cluj-Napoca, Alegeri locale, Candidat, Politică locală, Dezvoltare urbană, Proiecte comunitare, Transparență, Participare civică, Bunăstare comunitară, Viitorul orașului" />
       <meta property="og:title" content="Calin Cozma" />
-      <meta property="og:description" content="Sunt Călin Cozma, candidat la Primăria Clujului." />
-      <meta property="og:image" content="../public/images/slider/2.png" />
+      <meta property="og:description" content="Sunt Călin Cozma, candidat la Primăria Clujului. Aici vei găsi viziunea mea pentru un Cluj Napoca mai prosper și mai echitabil. Descoperă planurile mele și alătură-te echipei noastre în construirea unei comunități mai bune pentru toți locuitorii orașului nostru!" />
+      <meta property="og:image" content="../CalinCozma-PrimariaCluj-ModernizareAdministratie-TransportPublic-SchimbareClujNapoca.webp" />
       <title>Calin Cozma</title>
       </Head>
       <Provider store={store}>

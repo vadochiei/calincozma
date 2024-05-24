@@ -49,7 +49,7 @@ const BlogSingle = (props) => {
                         <div className="wpo-blog-content">
                                 <div className="post format-standard-image">
                                     <div className="entry-media">
-                                        <Image src={BlogDetails?.screens} alt="" />
+                                        <Image src={BlogDetails?.screens} alt={BlogDetails?.title} />
                                     </div>
                                     <div className="entry-meta">
                                         <ul>
@@ -235,8 +235,10 @@ const BlogSingle = (props) => {
                     </div>
                 </div>
             </section>
+            
             <Footer />
             <Scrollbar />
+            
         </Fragment>
     )
 };
