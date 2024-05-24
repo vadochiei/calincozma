@@ -8,6 +8,9 @@ import blogImg6 from "/public/images/blog/Calin-Cozma-O-Noua-Viziune-pentru-Cluj
 import blogImg7 from "/public/images/blog/Calin-Cozma-Reducerea-Numarului-de-Angajati-din-Primaria-Cluj-Napoca.webp";
 import blogImg8 from "/public/images/blog/Calin-Cozma-Opinii-ale-unui-Influencer-Politic-Ardelean.webp";
 import blogImg9 from "/public/images/blog/Calin-Cozma-Amintiri-din-Timpul-Revolutiei.webp";
+import blogImg10 from "/public/images/blog/Calin-Cozma-Critici-la-Adresa-Administratiei-Boc-pentru-Intarzierile-in-Emiterea-Autorizatiilor-de-Constructie.webp";
+import blogImg11 from "/public/images/blog/Calin-Cozma-Propuneri-pentru-Modernizarea-Administratiei-in-Cluj-Napoca.webp";
+
 
 
 const blogs = [
@@ -136,6 +139,34 @@ const blogs = [
         source: 'Gazeta de Cluj',
         author: 'Echipa Călin Cozma',
         create_at: '20 Mai 2024',
+    },
+    {
+        id: '10',
+        title: 'Călin Cozma: Critici la Adresa Administrației Boc pentru Întârzierile în Emiterea Autorizațiilor de Construcție',
+        slug: 'Calin-Cozma-Critici-la-Adresa-Administratiei-Boc-pentru-Intarzierile-in-Emiterea-Autorizatiilor-de-Constructie',
+        screens: blogImg10,
+        description: 'Călin Cozma critică administrația Boc pentru întârzierile în emiterea autorizațiilor de construcție și impactul acestora asupra prețurilor chiriilor în Cluj-Napoca.',
+        text: 'Călin Cozma, candidatul AUR la Primăria Cluj-Napoca, a adus critici dure administrației actuale conduse de Emil Boc, acuzând întârzieri semnificative în emiterea autorizațiilor de construcție. Cozma a subliniat că domnul Boc are nevoie de trei sau patru ani pentru a emite o autorizație, ceea ce contribuie la creșterea prețurilor chiriilor în oraș din cauza cererii mari și ofertei insuficiente.',
+        quote: 'În momentul în care cererea este mare și oferta este foarte mică, prețurile chiriilor cresc. Trebuie să simplificăm și să accelerăm procesul de emitere a autorizațiilor pentru a răspunde nevoilor clujenilor.',
+        text2: 'Cozma a subliniat necesitatea urgentă de a debirocratiza și eficientiza procedurile administrative pentru a stimula dezvoltarea urbană și a reduce presiunea asupra pieței imobiliare. El promite să implementeze reforme care să reducă timpul de așteptare pentru autorizațiile de construcție și să facă administrația locală mai responsabilă și mai receptivă la nevoile cetățenilor.',
+        sourceLink: 'https://www.news.ro/politic-intern/candidatul-aur-primaria-cluj-napoca-domnul-boc-nevoie-trei-ani-patru-ani-emita-autorizatie-constructie-momentul-cererea-mare-oferta-foarte-simplu-aceste-preturi-chirii-cresc-1922401621362024052321599998',
+        source: 'News.ro',
+        author: 'Echipa Călin Cozma',
+        create_at: '21 Mai 2024',
+    },
+    {
+        id: '11',
+        title: 'Călin Cozma: Propuneri pentru Modernizarea Administrației în Cluj-Napoca',
+        slug: 'Calin-Cozma-Propuneri-pentru-Modernizarea-Administratiei-in-Cluj-Napoca',
+        screens: blogImg11,
+        description: 'Află despre propunerile lui Călin Cozma pentru mutarea părții birocratice în periferia orașului și eficientizarea transportului public în Cluj-Napoca.',
+        text: 'Călin Cozma, candidatul AUR la Primăria Cluj-Napoca, a propus două măsuri simple și eficiente pentru modernizarea administrației locale: mutarea părții birocratice în periferia orașului și transformarea transportului public într-un sistem eficient și accesibil. Aceste propuneri au fost prezentate ca soluții pentru decongestionarea centrului orașului și pentru îmbunătățirea calității vieții clujenilor.',
+        quote: 'Mutarea părții birocratice la periferie va elibera centrul Clujului și va face loc pentru spații publice și zone verzi. În plus, un transport public eficient va reduce traficul și va face orașul mai accesibil pentru toți cetățenii.',
+        text2: 'Cozma a explicat că un Palat Administrativ situat la periferia orașului ar reduce considerabil aglomerația din centrul Clujului, permițând astfel dezvoltarea urbană și crearea unor noi spații pentru locuitori. De asemenea, propune ca transportul comun să fie gratuit pentru a încuraja utilizarea acestuia și pentru a reduce poluarea și congestia rutieră. Aceste măsuri, spune el, sunt esențiale pentru a transforma Cluj-Napoca într-un oraș modern și sustenabil.',
+        sourceLink: 'https://www.news.ro/politic-intern/candidatul-aur-primaria-cluj-napoca-propus-doua-lucruri-foarte-simple-palat-administrativ-periferia-orasului-mutam-toata-partea-birocratica-centrul-clujului-anaf-ul-transportul-comun-ar-trebui-fie-1922403321032024052221599918',
+        source: 'News.ro',
+        author: 'Echipa Călin Cozma',
+        create_at: '21 Mai 2024',
     }
     
     
