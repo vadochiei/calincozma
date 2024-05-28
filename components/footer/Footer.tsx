@@ -168,7 +168,7 @@ const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
-                            {/* <p className="copyright"> Copyright &copy; 2023 Design by <Link onClick={ClickHandler} href="https://www.blind.ro">Blind</Link>.All Rights Reserved.</p> */}
+                            <p className="copyright"> Copyright &copy; 2024 Design by <Link onClick={ClickHandler} href="https://www.blind.ro" target="_blank">Blind</Link> | CMF 21240330.</p>
                         </div>
                     </div>
                 </div>
