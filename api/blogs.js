@@ -11,6 +11,8 @@ import blogImg9 from "/public/images/blog/Calin-Cozma-Amintiri-din-Timpul-Revolu
 import blogImg10 from "/public/images/blog/Calin-Cozma-Critici-la-Adresa-Administratiei-Boc-pentru-Intarzierile-in-Emiterea-Autorizatiilor-de-Constructie.webp";
 import blogImg11 from "/public/images/blog/Calin-Cozma-Propuneri-pentru-Modernizarea-Administratiei-in-Cluj-Napoca.webp";
 import blogImg12 from "/public/images/blog/Calin-Cozma-AUR-Denunta-Actiuni-de-Intimidare-si-Vandalizare-in-Campania-din-Cluj.webp";
+import blogImg13 from "/public/images/blog/Candidatul-Aur-Calin-Cozma-A-Fost-Interzis-Pentru-A-Mai-Candida-Online-Doua-Mandate.webp";
+
 
 
 
@@ -183,7 +185,22 @@ const blogs = [
         source: 'Ziarul Făclia',
         author: 'Echipa Călin Cozma',
         create_at: '24 Mai 2024',
+    },
+    {
+        id: '13',
+        title: 'Călin Cozma, Candidatul AUR, Interzis pentru a Mai Candida Online pentru Încă Două Mandate',
+        slug: 'Candidatul-Aur-Calin-Cozma-A-Fost-Interzis-Pentru-A-Mai-Candida-Online-Doua-Mandate',
+        screens: blogImg13,
+        description: 'Află despre interdicția impusă candidatului AUR, Călin Cozma, care nu va mai putea candida online pentru încă două mandate.',
+        text: 'Călin Cozma, candidatul AUR la Primăria Cluj-Napoca, a primit recent o notificare de la Facebook care spune: "Your account is restricted for 3,649 days. Your account activity didn\'t follow our Community Standards, so you can\'t do one or more things you usually do." Această măsură a fost luată nu pentru că Călin Cozma ar fi încălcat standardele comunității, ci pentru că cineva a încercat să oprească libera exprimare. Conform informațiilor furnizate, Cozma nu va putea folosi platformele online pentru a-și desfășura campania electorală, ceea ce reprezintă un obstacol semnificativ în strategia sa de comunicare cu oamenii din Cluj.',
+        quote: 'Această interdicție este un atac direct asupra democrației și libertății de exprimare. Este inacceptabil ca, într-o perioadă crucială pentru campania mea, să fiu privat de o platformă esențială pentru a comunica cu cetățenii.',
+        text2: 'Reprezentanții AUR au declarat că vor contesta această decizie și că vor căuta toate căile legale pentru a asigura că Călin Cozma poate continua să-și desfășoare campania electorală. În ciuda acestor provocări, Cozma rămâne determinat să lupte pentru schimbare și să aducă o nouă viziune în administrația locală din Cluj-Napoca.',
+        sourceLink: 'https://gazetadecluj.ro/candidatul-aur-calin-cozma-a-fost-interzis-pentru-a-mai-candida-online-inca-doua-mandate/',
+        source: 'Gazeta de Cluj',
+        author: 'Echipa Călin Cozma',
+        create_at: '27 Mai 2024',
     }
+    
     
     
 
