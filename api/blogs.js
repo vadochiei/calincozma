@@ -12,6 +12,9 @@ import blogImg10 from "/public/images/blog/Calin-Cozma-Critici-la-Adresa-Adminis
 import blogImg11 from "/public/images/blog/Calin-Cozma-Propuneri-pentru-Modernizarea-Administratiei-in-Cluj-Napoca.webp";
 import blogImg12 from "/public/images/blog/Calin-Cozma-AUR-Denunta-Actiuni-de-Intimidare-si-Vandalizare-in-Campania-din-Cluj.webp";
 import blogImg13 from "/public/images/blog/Candidatul-Aur-Calin-Cozma-A-Fost-Interzis-Pentru-A-Mai-Candida-Online-Doua-Mandate.webp";
+import blogImg14 from "/public/images/blog/Calin-Cozma-Ateneul-Copiilor-Turism-Cluj-Napoca.webp";
+import blogImg15 from "/public/images/blog/Calin-Cozma-Prioritate-Parcari-Pasaje-Subterane.webp";
+
 
 
 
@@ -199,7 +202,36 @@ const blogs = [
         source: 'Gazeta de Cluj',
         author: 'Echipa Călin Cozma',
         create_at: '27 Mai 2024',
+    },
+    {
+        id: '14',
+        title: 'Călin Cozma Propune Crearea unui Ateneul al Copiilor și Atragerea Turismului la Cluj-Napoca',
+        slug: 'Calin-Cozma-Ateneul-Copiilor-Turism-Cluj-Napoca',
+        screens: blogImg14,
+        description: 'Descoperă propunerile lui Călin Cozma pentru dezvoltarea infrastructurii culturale și atragerea turiștilor străini la Cluj-Napoca.',
+        text: 'Invitat în emisiunea “9 întrebări în 9 minute”, produsă de Media9, Călin Cozma, candidatul AUR la Primăria Cluj-Napoca și primul pe lista pentru Consiliul Local, a discutat despre necesitatea dezvoltării infrastructurii culturale în municipiu. Cozma, un solist de operă cu experiență pe scene din România și Germania, a subliniat importanța creării unui Ateneul al Copiilor, o instituție dedicată spectacolelor și artei pentru copii. În prezent, Cluj-Napoca nu oferă suficiente oportunități culturale pentru copii cu vârste cuprinse între 8 și 18 ani, iar acest proiect ar umple acest gol crucial în dezvoltarea tinerilor.',
+        quote: '“Să îți spun despre un proiect la care m-am gândit, se numește Ateneul copiilor. De ce e foarte important. Eu am copil și știu că în momentul ăsta, în Cluj-Napoca, noi nu avem instituții care să ofere spectacole pentru copii sau artă pentru copii. În București, de exemplu, sunt trei opere de copii, Opera Comică pentru Copii și încă vreo două. Până la opt ani, îl duci pe copil la Puck, la un teatru de păpuși, dar de la 8 la 18 ani nu mai ai ce să-i oferi cultură. Iar el atunci se dezvoltă ca și individ. Este foarte important pentru toți părinții care au copii să aibă unde să meargă cu copiii.”',
+        text2: 'Pe lângă acest proiect, Călin Cozma a subliniat necesitatea unui centru expozițional modern și a unui proiect ambițios de promovare a istoriei Clujului. În colaborare cu istorici locali, Cozma dorește să dezvolte un program de trei zile care să prezinte povestea orașului de-a lungul a 2.000 de ani, atrăgând astfel turiști străini și promovând bogata moștenire culturală a Clujului. “Trebuie să dezvoltăm povestea Clujului... să aducem turiști la Cluj-Napoca și să aibă trei zile să vadă istoria Clujului și poveștile, pentru că există multe legende”, a adăugat Cozma.',
+        sourceLink: 'https://media9.ro/solutia-pentru-atragerea-turistilor-straini-povestea-clujului-2-000-de-ani-in-trei-zile/?fbclid=IwZXh0bgNhZW0CMTAAAR0T32jsQxscJNueAAWNRFkSitl5ooEhbLAsdkhF7dpZXSRrpUK-LK2Xd8w_aem_AY0RZeVuq3JueFnPGuvLUw-opUcLxDzQhk3X3TQyJu8qy3xbPUE_cwb8AUxHQprAvmW9-Oh686gqvUyugS0-oYYC',
+        source: 'Media9.ro',
+        author: 'Echipa Călin Cozma',
+        create_at: '29 Mai 2024',
+    },
+    {
+        id: '15',
+        title: 'Călin Cozma, Prioritate pentru Parcări și Pasaje Subterane, nu Metrou',
+        slug: 'Calin-Cozma-Prioritate-Parcari-Pasaje-Subterane',
+        screens: blogImg15,
+        description: 'Călin Cozma, candidatul AUR la Primăria Cluj-Napoca, propune soluții moderne de infrastructură pentru decongestionarea traficului.',
+        text: 'Călin Cozma, candidatul AUR pentru funcția de primar al Municipiului Cluj-Napoca, a afirmat în emisiunea Politik 24, moderată de jurnalistul Dinu Criste la CLUJ LIVE, că orașul are nevoie mai mare de parcări subterane în centru și de pasaje subterane și supraterane decât de o linie de metrou. Cozma a subliniat necesitatea construirii unor soluții moderne de infrastructură pentru a decongestiona traficul din centrul orașului. “Avem nevoie de mai multe parcări subterane și de pasaje subterane și supraterane pentru a rezolva problema traficului, nu de un metrou,” a declarat candidatul AUR.',
+        quote: '“Avem nevoie de mai multe parcări subterane și de pasaje subterane și supraterane pentru a rezolva problema traficului, nu de un metrou.”',
+        text2: 'De asemenea, Cozma a propus mutarea Festivalului Untold în afara orașului, fără a-l elimina complet. “Festivalul Untold este un eveniment important, dar ar trebui mutat în afara orașului pentru a reduce disconfortul locuitorilor,” a explicat acesta. În ceea ce privește administrația locală, Cozma a explicat necesitatea restructurării Primăriei și a firmelor controlate de aceasta, precum RADP, CTP și Termoficare. El a argumentat că numărul angajaților este prea mare și că digitalizarea instituțiilor este imperativă pentru o funcționare eficientă. Candidatul AUR a criticat și funcționarul public virtual Antonia, considerându-l ineficient. “Antonia nu este de ajutor. Tot ce poate face este să ne spună unde s-au blocat documentele în Primărie,” a spus Cozma, subliniind că este nevoie de soluții digitale mai performante. Propunerile lui Cozma vin într-un moment în care Cluj-Napoca se confruntă cu provocări majore legate de trafic și eficiența administrației publice, iar soluțiile sale au stârnit deja discuții aprinse în rândul comunității locale.',
+        sourceLink: 'https://www.clujlive.ro/2024/05/30/calin-cozma-candidatul-aur-la-primaria-cluj-napoca-prioritate-pentru-parcari-si-pasaje-subterane-nu-metrou/',
+        source: 'ClujLive.ro',
+        author: 'Echipa Călin Cozma',
+        create_at: '30 Mai 2024',
     }
+    
     
     
     
