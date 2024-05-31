@@ -75,11 +75,11 @@ const BlogSingle = (props) => {
                                         </p>
                                     )}  */}
                                     {BlogDetails?.source && (
-                                        <p>Știre preluată de pe: <Link href={BlogDetails?.sourceLink ?? '/blog'} target="_blank">{BlogDetails?.source ?? ' '}</Link></p>
+                                        <p>Știre preluată de pe: <Link style={{ color: 'darkblue' }} href={BlogDetails?.sourceLink ?? '/blog'} target="_blank">{BlogDetails?.source ?? ' '}</Link></p>
                                     )}
 
 
-                                    <Link href='/blog'>Vezi toate blogurile</Link>
+                                    <Link href='/blog' style={{ color: 'darkblue' }}>Vezi toate blogurile</Link>
                                     {/* <div className="gallery">
                                         <div>
                                             
