@@ -18,6 +18,8 @@ const HomePage = () => {
         <>
         <Head>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#f3ca64"/>
+        <meta name="background_color" content="#f3ca64"/>
         </Head>
         
         {/* // <Fragment>

@@ -114,4 +114,10 @@
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://www.calincozma.ro/blog-single-fullwidth/Calin-Cozma-Solutii-Autorizații-Constructie-Cluj-Napoca</loc>
+    <lastmod>2024-06-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>

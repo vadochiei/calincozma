@@ -14,6 +14,8 @@ import blogImg12 from "/public/images/blog/Calin-Cozma-AUR-Denunta-Actiuni-de-In
 import blogImg13 from "/public/images/blog/Candidatul-Aur-Calin-Cozma-A-Fost-Interzis-Pentru-A-Mai-Candida-Online-Doua-Mandate.webp";
 import blogImg14 from "/public/images/blog/Calin-Cozma-Ateneul-Copiilor-Turism-Cluj-Napoca.webp";
 import blogImg15 from "/public/images/blog/Calin-Cozma-Prioritate-Parcari-Pasaje-Subterane.webp";
+import blogImg16 from "/public/images/blog/Calin-Cozma-Solutii-Autorizații-Constructie-Cluj-Napoca.webp";
+
 
 
 
@@ -230,7 +232,23 @@ const blogs = [
         source: 'ClujLive.ro',
         author: 'Echipa Călin Cozma',
         create_at: '30 Mai 2024',
+    },
+    {
+        id: '16',
+        title: 'Călin Cozma, Candidatul AUR la Primăria Cluj-Napoca: Soluții pentru Emiterea Rapidă a Autorizațiilor de Construcție',
+        slug: 'Calin-Cozma-Solutii-Autorizații-Constructie-Cluj-Napoca',
+        screens: blogImg16,
+        description: 'Călin Cozma propune soluții pentru emiterea rapidă a autorizațiilor de construcție în Cluj-Napoca, comparând situația actuală cu cea din alte orașe din România.',
+        text: 'Călin Cozma, candidatul AUR la Primăria Cluj-Napoca, a adus în discuție problema emiterii autorizațiilor de construcție în oraș, comparând situația actuală cu eficiența observată în alte orașe din România. Această comparație reflectă frustrarea multor clujeni și subliniază nevoia urgentă de reformă în procesul de emitere a autorizațiilor.',
+        quote: '“De ce la Bolojan se poate să iasă autorizație de construire în 15 zile sau în 30 de zile și la Cluj-Napoca durează trei ani?”',
+        text2: 'Cozma propune soluții pentru a reduce birocrația și a accelera procesul de aprobare a proiectelor de construcție. El susține digitalizarea completă a proceselor administrative și implementarea unor termene clare și stricte pentru emiterea autorizațiilor. "Este timpul să aducem eficiență și transparență în administrația locală. Trebuie să ne asigurăm că dezvoltarea urbană nu este blocată de întârzieri inutile," a declarat Cozma. Propunerile sale vin într-un moment în care Cluj-Napoca se confruntă cu provocări majore în ceea ce privește dezvoltarea urbană și infrastructura, iar soluțiile sale au stârnit deja discuții aprinse în rândul comunității locale.',
+        sourceLink: 'https://www.news.ro/politic-intern/candidatul-aur-la-primaria-cluj-napoca-de-ce-la-bolojan-se-poate-sa-iasa-autorizatie-de-construire-in-15-zile-sau-in-30-de-zile-si-la-cluj-napoca-dureaza-trei-ani-1922404803002024061721616113',
+        source: 'News.ro',
+        author: 'Echipa Călin Cozma',
+        create_at: '3 Iunie 2024',
     }
+    
+    
     
     
     
