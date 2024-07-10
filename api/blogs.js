@@ -15,11 +15,7 @@ import blogImg13 from "/public/images/blog/Candidatul-Aur-Calin-Cozma-A-Fost-Int
 import blogImg14 from "/public/images/blog/Calin-Cozma-Ateneul-Copiilor-Turism-Cluj-Napoca.webp";
 import blogImg15 from "/public/images/blog/Calin-Cozma-Prioritate-Parcari-Pasaje-Subterane.webp";
 import blogImg16 from "/public/images/blog/Calin-Cozma-Solutii-Autorizații-Constructie-Cluj-Napoca.webp";
-
-
-
-
-
+import blogImg17 from "/public/images/blog/Calin-Cozma-Alegerea-Intre-Metrou-Centura-Metropolitana-Cluj-Napoca.webp";
 
 
 const blogs = [
@@ -246,10 +242,35 @@ const blogs = [
         source: 'News.ro',
         author: 'Echipa Călin Cozma',
         create_at: '3 Iunie 2024',
+    },
+    {
+        id: '17',
+        title: 'Călin Cozma: Alegerea Între Metrou și Centura Metropolitană la Cluj-Napoca',
+        slug: 'Calin-Cozma-Alegerea-Intre-Metrou-Centura-Metropolitana-Cluj-Napoca',
+        screens: blogImg17,
+        description: 'Călin Cozma, candidatul AUR la Primăria Cluj-Napoca, discută despre necesitatea prioritizării proiectelor de infrastructură și alegerea între metrou și centura metropolitană.',
+        text: 'Călin Cozma, candidatul AUR pentru funcția de primar al Municipiului Cluj-Napoca, a subliniat importanța prioritizării proiectelor de infrastructură pentru oraș. Într-un interviu recent, Cozma a dezvăluit că, în acest moment, există patru milioane de lei alocați pentru exproprieri în cadrul proiectului centurii metropolitane, comparativ cu cele 200 de milioane de euro necesare pentru implementarea completă a acestui proiect vital. Cozma a subliniat că orașul trebuie să facă o alegere clară între construirea unei linii de metrou și dezvoltarea centurii metropolitane, ambele fiind esențiale pentru decongestionarea traficului și îmbunătățirea mobilității urbane.',
+        quote: '“În acest moment există patru milioane de lei pentru exproprieri în cadrul proiectului centurii metropolitane, comparativ cu cele 200 de milioane de euro necesare. Este crucial să alegem între metrou și centura metropolitană.”',
+        text2: 'Cozma a evidențiat că fondurile actuale sunt insuficiente pentru realizarea proiectelor propuse și că este necesar un plan strategic pentru utilizarea eficientă a resurselor disponibile. El a argumentat că prioritizarea corectă a proiectelor de infrastructură poate aduce beneficii semnificative locuitorilor orașului și poate contribui la dezvoltarea sustenabilă a Clujului. “Trebuie să analizăm cu atenție necesitățile orașului și să luăm decizii informate care să reflecte realitățile financiare și nevoile urgente ale comunității,” a declarat Cozma. Propunerile sale au stârnit deja discuții aprinse în rândul comunității locale, iar alegerea între metrou și centura metropolitană rămâne un subiect de mare interes pentru toți clujenii.',
+        sourceLink: 'https://www.news.ro/politic-intern/candidatul-aur-primaria-cluj-napoca-acest-moment-exista-patru-milioane-lei-exproprieri-centura-metropolitana-200-milioane-euro-cat-e-necesar-alege-intre-metrou-centura-metropolitana-1922400403002024061821616144',
+        source: 'News.ro',
+        author: 'Echipa Călin Cozma',
+        create_at: '4 Iunie 2024',
+    },
+    {
+        id: '18',
+        title: 'Călin Cozma Critică Proiectele Nerealizate ale lui Emil Boc',
+        slug: 'Calin-Cozma-Critica-Proiectele-Nerealizate-Emil-Boc',
+        screens: blogImg16,
+        description: 'Călin Cozma, candidatul AUR la Primăria Cluj-Napoca, critică dur proiectele nerealizate ale lui Emil Boc și propune soluții concrete pentru dezvoltarea orașului.',
+        text: 'Călin Cozma, candidatul AUR la Primăria Cluj-Napoca, a lansat critici vehemente la adresa administrației conduse de Emil Boc, acuzând că proiectele majore, precum metroul și centura metropolitană, rămân doar promisiuni nerealizate. Cozma a evidențiat că, în ciuda numeroaselor mandate, aceste inițiative nu au fost duse la bun sfârșit, afectând negativ dezvoltarea orașului. El a subliniat necesitatea unei schimbări și a implementării unor proiecte reale care să aducă beneficii palpabile comunității.',
+        quote: '“Boc a defilat cu același metrou, aceeași centură… toate proiecte vechi și nerealizate în ultimele mandate”',
+        text2: 'Călin Cozma propune soluții pragmatice pentru a transforma Cluj-Napoca. El sugerează prioritizarea proiectelor de infrastructură esențiale, cum ar fi construirea de parcări subterane și supraterane, modernizarea transportului public și digitalizarea administrației locale. Cozma accentuează importanța transparenței și a eficienței în gestionarea fondurilor publice pentru a asigura un impact pozitiv asupra vieții cetățenilor. Propunerile sale vin ca răspuns la stagnarea observată sub conducerea actuală.',
+        sourceLink: 'https://cluj1.ro/calin-cozma-boc-a-defilat-cu-acelasi-metrou-aceeasi-centura-toate-proiecte-vechi-si-nerealizate-in-ultimele-mandate/',
+        source: 'Cluj1.ro',
+        author: 'Echipa Călin Cozma',
+        create_at: '10 Iulie 2024',
     }
-    
-    
-    
     
     
     
